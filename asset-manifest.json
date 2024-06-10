@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.2e23310d.css",
-    "main.js": "/static/js/main.37d4335f.js",
-    "static/js/453.3f3acb45.chunk.js": "/static/js/453.3f3acb45.chunk.js",
-    "static/media/footer.jpg": "/static/media/footer.f292d87257e9e1c23f50.jpg",
-    "static/media/JeCheon-logo.png": "/static/media/JeCheon-logo.9c73a223d92f8eb1a9ee.png",
-    "index.html": "/index.html",
-    "main.2e23310d.css.map": "/static/css/main.2e23310d.css.map",
-    "main.37d4335f.js.map": "/static/js/main.37d4335f.js.map",
-    "453.3f3acb45.chunk.js.map": "/static/js/453.3f3acb45.chunk.js.map"
+    "main.css": "/goodprice/static/css/main.2e23310d.css",
+    "main.js": "/goodprice/static/js/main.1f570c8b.js",
+    "static/js/453.3f3acb45.chunk.js": "/goodprice/static/js/453.3f3acb45.chunk.js",
+    "static/media/footer.jpg": "/goodprice/static/media/footer.f292d87257e9e1c23f50.jpg",
+    "static/media/JeCheon-logo.png": "/goodprice/static/media/JeCheon-logo.9c73a223d92f8eb1a9ee.png",
+    "index.html": "/goodprice/index.html",
+    "main.2e23310d.css.map": "/goodprice/static/css/main.2e23310d.css.map",
+    "main.1f570c8b.js.map": "/goodprice/static/js/main.1f570c8b.js.map",
+    "453.3f3acb45.chunk.js.map": "/goodprice/static/js/453.3f3acb45.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2e23310d.css",
-    "static/js/main.37d4335f.js"
+    "static/js/main.1f570c8b.js"
   ]
 }
