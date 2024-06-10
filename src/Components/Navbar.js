@@ -4,8 +4,9 @@ import imgLogo from '../JeCheon-logo.png';
 const Navbar = () => {
   return (
     <>
-      <nav className="navbar navbar-expand-lg navbar-light bg-light">
+      <nav className="navbar navbar-expand-lg navbar-light navbar-bg">
           <div className="container px-4 px-lg-5">
+            <img className="logo-img" src={imgLogo} alt="로고" />
               <a className="navbar-brand" href="#!">착한가격 업소</a>
               <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span className="navbar-toggler-icon"></span></button>
               <div className="collapse navbar-collapse" id="navbarSupportedContent">
@@ -13,7 +14,7 @@ const Navbar = () => {
                       <li className="nav-item"><a className="nav-link active" aria-current="page" href="#!">Home</a></li>
                       <li className="nav-item"><a className="nav-link" href="#!">About</a></li>
                       <li className="nav-item dropdown">
-                          <a className="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">업소</a>
+                          <a className="nav-link dropdown-toggle" id="navbarDropdown" href="#!" role="button" data-bs-toggle="dropdown" aria-expanded="false">업소</a>
                           <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
                               <li><a className="dropdown-item" href="#!">충청북도</a></li>
                               <li><hr className="dropdown-divider" /></li>
@@ -32,11 +33,12 @@ const Navbar = () => {
               </div>
           </div>
       </nav>
-      <header className="bg-white py-0">
-          <div className="container px-4 px-lg-5 my-5">
+
+      <header className="bg-white py-5">
+          <div className="container px-4 px-lg-5">
               <div className="text-center text-white">
+
                 <li className="imgList">
-                  <img className="card-img-top logo-img" src={imgLogo} alt="로고" />
                   <img className="card-img-top people-img" src="https://www.goodprice.go.kr/images/sub/guide_img01.jpg" alt="사람들" />
                   <img className="card-img-top" src="https://www.goodprice.go.kr/images/sub/guide_img04.jpg" alt="가이드" />
                 </li>

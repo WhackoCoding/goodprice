@@ -78,7 +78,7 @@ const GoodPrice = () => {
   */
   return (
     <div>
-      <div>
+      <div className='table-display'>
           <table className="table-striped">
           <thead>
             <tr>
