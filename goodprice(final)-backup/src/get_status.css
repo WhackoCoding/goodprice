@@ -1,0 +1,28 @@
+﻿@charset "UTF-8";
+#navbarCollapse {
+	height: 50px;	
+}
+#studentBtn {
+	width: 100px;
+	height: 60px;
+}
+.d-flex {
+	width: 200px;
+	margin-top: 15px;
+}
+.container {
+    margin-top: 80px;
+}
+tr, td, .numbering, .name-size {
+	text-align: center;
+}
+.numbering {
+	width: 50px;
+}
+.name-size {
+	width: 200px;
+}
+body .section {
+	width: 600px;
+	margin: 80px auto 10px;
+}

@@ -1,5 +1,7 @@
 import React from 'react'
 import imgLogo from '../JeCheon-logo.png';
+import imgPeople from '../people.jpg';
+import imgFind from '../find.jpg'; 
 
 const Navbar = () => {
   return (
@@ -39,8 +41,8 @@ const Navbar = () => {
               <div className="text-center text-white">
 
                 <li className="imgList">
-                  <img className="card-img-top people-img" src="https://www.goodprice.go.kr/images/sub/guide_img01.jpg" alt="사람들" />
-                  <img className="card-img-top" src="https://www.goodprice.go.kr/images/sub/guide_img04.jpg" alt="가이드" />
+                  <img className="card-img-top people-img" src={imgPeople} alt="사람들" />
+                  <img className="card-img-top" src={imgFind} alt="가이드" />
                 </li>
               </div>
           </div>
