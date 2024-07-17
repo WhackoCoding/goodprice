@@ -71,9 +71,12 @@ table.table-striped td {
 
 .imgList {
   position: relative;
+  z-index: 1; /* 기본 값 설정 */
 }
+
 .imgList .peope-img {
   position: absolute;
+  z-index: 1; /* 기본 값 설정 */
 }
 
 .logo-img {
@@ -97,6 +100,7 @@ table.table-striped td {
 .navbar {
   position: fixed;
   width: 100%;
+  z-index: 10; /* imgList보다 높은 값 설정 */
 }
 
 .table-display {
